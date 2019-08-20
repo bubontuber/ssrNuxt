@@ -10,8 +10,8 @@ const commentRoutes = require('./routes/comments.routes')
 const keys = require('./keys')
 const app = express()
 
-// const uri = 'mongodb+srv://admin:Ro740602!@cluster0-y0wsw.mongodb.net/test?retryWrites=true&w=majority'
-mongoose.connect(keys.MONGO_URI)
+const uri = 'mongodb+srv://admin:Ro740602!@cluster0-y0wsw.mongodb.net/test?retryWrites=true&w=majority'
+mongoose.connect(uri)
   .then(() => {
     console.log('connected')
   })
