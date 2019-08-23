@@ -83,5 +83,3 @@ dist
 
 # Service worker
 sw.*
-
-server/keys/keys.dev.js
